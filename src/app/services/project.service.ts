@@ -18,7 +18,9 @@ interface Project {
 export class ProjectService {
   // 🚨 IMPORTANT: Replace this with your actual Render URL after deployment!
   // Example placeholder URL (Render provides HTTPS)
-  private apiUrl = 'https://munnaf-portfolio-backend.onrender.com/api/projects'; 
+  // private apiUrl = 'https://munnaf-portfolio-backend.onrender.com/api/projects'; 
+    private apiUrl = 'https://portfolio-backend-fmn0.onrender.com/api/projects';
+  // ==> Available at your primary URL https://portfolio-backend-fmn0.onrender.com
 
   // private apiUrl = 'http://localhost:8080/api/projects'; // <-- Old local URL
 
